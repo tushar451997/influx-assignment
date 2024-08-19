@@ -1,6 +1,84 @@
 .App {
   text-align: center;
 }
+@font-face {
+  font-family: 'Font0';
+  src: url('../Exercise//Fonts/Fontspring-DEMO-altivo-black.otf');
+}
+@font-face {
+  font-family: 'Font1';
+  src: url('../Exercise//Fonts/Fontspring-DEMO-altivo-blackitalic.otf');
+}
+
+@font-face {
+  font-family: 'Font2';
+  src: url('../Exercise//Fonts/Fontspring-DEMO-altivo-bold.otf');
+}
+
+@font-face {
+  font-family: 'Font3';
+  src: url('../Exercise//Fonts/Fontspring-DEMO-altivo-bolditalic.otf');
+}
+
+@font-face {
+  font-family: 'Font4';
+  src: url('../Exercise//Fonts/Fontspring-DEMO-altivo-extralight.otf');
+}
+
+@font-face {
+  font-family: 'Font5';
+  src: url('../Exercise//Fonts/Fontspring-DEMO-altivo-extralightitalic.otf');
+}
+
+@font-face {
+  font-family: 'Font6';
+  src: url('../Exercise//Fonts/Fontspring-DEMO-altivo-italic.otf');
+}
+
+@font-face {
+  font-family: 'Font7';
+  src: url('../Exercise//Fonts/Fontspring-DEMO-altivo-light.otf');
+}
+
+@font-face {
+  font-family: 'Font8';
+  src: url('../Exercise//Fonts/Fontspring-DEMO-altivo-lightitalic.otf');
+}
+
+@font-face {
+  font-family: 'Font9';
+  src: url('../Exercise//Fonts/Fontspring-DEMO-altivo-medium.otf');
+}
+
+@font-face {
+  font-family: 'Font10';
+  src: url('../Exercise//Fonts/Fontspring-DEMO-altivo-mediumitalic.otf');
+}
+
+@font-face {
+  font-family: 'Font11';
+  src: url('../Exercise//Fonts/Fontspring-DEMO-altivo-regular.otf');
+}
+
+@font-face {
+  font-family: 'Font12';
+  src: url('../Exercise//Fonts/Fontspring-DEMO-altivo-thin.otf');
+}
+
+@font-face {
+  font-family: 'Font13';
+  src: url('../Exercise//Fonts/Fontspring-DEMO-altivo-thinitalic.otf');
+}
+
+@font-face {
+  font-family: 'Font14';
+  src: url('../Exercise//Fonts/Fontspring-DEMO-altivo-ultra.otf');
+}
+
+@font-face {
+  font-family: 'Font15';
+  src: url('../Exercise//Fonts/Fontspring-DEMO-altivo-ultraitalic.otf');
+}
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +113,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.div {
+  background-image: url('./Assets/Background.png');
+height: 100vh;
+}
+
+.text-center.text-light {
+  padding-top: 18%;
+
+}
+
+.ls-3 {
+  letter-spacing: 0.5em;
+  font-size: 22px;
+  color: rgb(216, 214, 214);
+  font-family: 'Font7';
+  font-weight: 600;
+}
+
+.ls-4 {
+  color: rgb(216, 214, 214);
+  font-size: 12px;
 }

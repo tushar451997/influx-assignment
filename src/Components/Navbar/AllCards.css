@@ -1,0 +1,126 @@
+.circle {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.list-inline li {
+  position: relative;
+}
+
+.list-inline li:not(:last-child) {
+  padding-bottom: 20px;
+}
+
+.list-inline li:not(:last-child):after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  width: 2px;
+  height: 20px;
+  background-color: #ccc;
+}
+
+.list-inline li span.circle {
+  vertical-align: middle;
+}
+
+.list-inline li span + span {
+  margin-left: 5px;
+}
+
+.connector {
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  width: 2px;
+  height: 20px;
+  background-color: #ccc;
+}
+
+.background{
+    background-color: black;
+    border-radius: 15px;
+   height: 30vh;
+}
+h5{
+    color: rgb(228, 199, 199);
+    font-family: "Font9";
+}
+p{
+    font-family: "Font7";
+    color: rgb(184, 181, 181);
+    font-size: 15px;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+    margin:'auto',
+    
+}
+
+.div1{
+    width:30%;
+   border: 1px solid red;
+}
+.div2{
+    width:50%;
+    border: 1px solid red;
+}
+
+body {
+    background-color: #000;
+  }
+  
+  .accordion {
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    background-color: #000;
+    border: none;
+    border-radius: 0;
+  }
+  
+  .card-header {
+    background-color: #000;
+    border-bottom: 1px solid #333;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .text-white {
+    color: #fff;
+  }
+  
+  .btn-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .btn-link:hover {
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  /* Add CSS to rotate the angle icon on click */
+  .accordion .card-header button[aria-expanded="true"] i {
+    transform: rotate(260deg);
+  }
+  
+  .accordion .card-header button[aria-expanded="false"] i {
+    transform: rotate(0deg);
+  }
